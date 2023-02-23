@@ -244,10 +244,10 @@ function restartGame(){
 }
 
 modeButton.onclick = changeMode;
-upArrow.onclick = function() {currentDirection = 'up';};
-downArrow.onclick = function() {currentDirection = 'down';};
-leftArrow.onclick = function() {currentDirection = 'left';};
-rightArrow.onclick = function() {currentDirection = 'right';};
+upArrow.onclick = function() {gameOver ? restartGame() : currentDirection = 'up';};
+downArrow.onclick = function() {gameOver ? restartGame() : currentDirection = 'down';};
+leftArrow.onclick = function() {gameOver ? restartGame() : currentDirection = 'left';};
+rightArrow.onclick = function() {gameOver ? restartGame() : currentDirection = 'right';};
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 // Initialize game //
