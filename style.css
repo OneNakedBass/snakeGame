@@ -11,7 +11,6 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    /* background-image: url('./food.webp'); */
 }
 
 .console {
@@ -224,4 +223,296 @@ body {
 
 #right-arrow:active {
     background-color: #504e4e;
+}
+
+@media only screen and (max-width: 889px) {
+
+    .console {
+        width: 45em;
+        height: 65em;
+        border-radius: 25px 25px 25px 25px;
+    }
+
+    .screen-border {
+        width: 35em;
+        height: 36em;
+    }
+
+    .screen {
+        width: 31em;
+        height: 32em;
+    }
+    
+    .gameboard {
+        width: 28em;
+        height: 28em;
+    }
+    
+    .screen-data {
+        height: 4em;
+        margin-top: 0.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .message-div {
+        width: 29em;
+    }
+    
+    .scores > p {
+        margin: .2em;
+        font-family:monospace;
+        font-size: large;
+        font-weight: 400;
+    }
+    
+    #mode {
+        font-size: large;
+        font-weight: 400;
+    }
+    
+    .messages > p {
+        font-weight: 300;
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 1em;
+    }
+    
+    .vertical-arrows-div {
+        margin-top: .5em;
+    }
+    
+    .horizontal-arrows-div {
+        margin-top: 2em;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .console {
+        width: 40em;
+        height: 60em;
+    }
+
+    .screen-border {
+        width: 30em;
+        height: 31em;
+    }
+
+    .screen {
+        width: 26em;
+        height: 27em;
+    }
+    
+    .gameboard {
+        width: 23em;
+        height: 23em;
+    }
+    
+    .screen-data {
+        height: 3em;
+    }
+    
+    .message-div {
+        width: 25em;
+    }
+    
+    .scores > p {
+        font-size: medium;
+    }
+    
+    #mode {
+        font-size: medium;
+    }
+    
+    .messages > p {
+        font-size: medium;
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 1em;
+    }
+    
+    .vertical-arrows-div {
+        margin-top: .5em;
+    }
+    
+    .horizontal-arrows-div {
+        margin-top: 2em;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    .console {
+        width: 34em;
+        height: 54em;
+    }
+
+    .screen-border {
+        width: 27em;
+        height: 27em;
+    }
+
+    .screen {
+        width: 24em;
+        height: 23em;
+    }
+    
+    .gameboard {
+        width: 20em;
+        height: 20em;
+    }
+    
+    .screen-data {
+        height: 3em;
+    }
+    
+    .message-div {
+        width: 23em;
+    }
+    
+    .scores > p {
+        font-size: small;
+    }
+    
+    #mode {
+        font-size: small;
+    }
+    
+    .messages > p {
+        font-size: small;
+    }
+    
+    .buttons {
+        margin-top: 1em;
+    }
+    
+    .vertical-arrows-div {
+        margin-top: .5em;
+    }
+    
+    .horizontal-arrows-div {
+        margin-top: 2em;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    .console {
+        margin-top: 0px;
+        width: 25em;
+        height: 46em;
+    }
+
+    .screen-border {
+        width: 20em;
+        height: 21em;
+    }
+
+    .screen {
+        align-self: center;
+        margin: 0px;
+        width: 18em;
+        height: 19em;
+    }
+    
+    .gameboard {
+        width: 17em;
+        height: 17em;
+    }
+    
+    .screen-data {
+        height: 2em;
+    }
+    
+    .message-div {
+        width: 21em;
+    }
+    
+    .scores > p {
+        font-size: 10px;
+    }
+    
+    #mode {
+        font-size: 10px;
+    }
+    
+    .messages > p {
+        font-size: 8px;
+    }
+    
+    .buttons {
+        margin-top: .5em;
+    }
+    
+    #mode-button {
+        margin-left: 5em;
+        background-color: #827e7d;
+        border-radius: 10px;
+        color: black;
+        height: 1.5em;
+        font-size: 12px;
+        width: 6em;
+    }
+    
+    .vertical-arrows-div {
+        margin-top: .5em;
+    }
+    
+    .horizontal-arrows-div {
+        margin-top: 2em;
+    }
+}
+
+
+@media only screen and (max-width: 390px) {
+
+    .console {
+        margin-top: 0px;
+        width: 24.5em;
+        height: 38em;
+    }
+
+    .screen-border {
+        width: 19em;
+        height: 20em;
+    }
+
+    .screen {
+        align-self: center;
+        margin: 0px;
+        width: 17em;
+        height: 18em;
+    }
+    
+    .gameboard {
+        width: 16em;
+        height: 16em;
+    }
+    
+    .screen-data {
+        height: 2em;
+    }
+    
+    .message-div {
+        width: 19em;
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #mode-button {
+        font-size: 11px;
+    }
 }
