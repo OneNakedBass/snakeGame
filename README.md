@@ -13,7 +13,7 @@ This simple game works with a setTimeOut loop that calls some other functions if
 The setTimeOut loop is created by calling the function "iterate" recursively.
 
 ```
-    function iterate(){
+function iterate(){
     if (keepIterating === true){
 
         setTimeout(() => {
