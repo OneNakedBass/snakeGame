@@ -19,7 +19,7 @@ body {
     height: 100%;
     margin: auto;
     background-color: #dad9d5;
-    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.214), inset 10px 5px 5px 5px #edeceae1;
+    box-shadow: inset -15px 7px 7px rgba(0, 0, 0, 0.422), inset 10px 10px 5px 5px #f9f7f5;
     padding-top: 2em;
     border-radius: 25px 25px 0px 0px;
 }
