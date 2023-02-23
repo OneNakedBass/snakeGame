@@ -5,6 +5,7 @@ const scoreScreen = document.getElementById("score");
 const bestScoreScreen = document.getElementById("best-score");
 const biteSound = new Audio('./bite.mp3');
 const loseGameSound = new Audio('./lose.mp3');
+const victorySound = new Audio('./victory.mp3');
 const rowsAndColumns = new Object;
 const modeButton = document.getElementById("mode-button");
 const modeScreen = document.getElementById("mode");
@@ -27,7 +28,6 @@ let gameSpeed = 180;
 let bestScore = 0;
 let currentMode = 'Normal';
 let gameOver = false;
-
 
 
 function createBoard(rowsNumber = 8){
@@ -172,6 +172,7 @@ function eatFood(){
         bestScore = snakeLength;
         bestScoreScreen.textContent = `Best score: ${bestScore}`;
     };
+    snakeLength === 199 ? winGame() : null;
 };
 
 
@@ -180,6 +181,14 @@ function loseGame(){
     keepIterating = false;
     message1.textContent = "You lost! :(";
     message2.textContent = "Press a key to play again.";
+    gameOver = true;
+};
+
+function winGame(){
+    victorySound.play();
+    keepIterating = false;
+    message1.textContent = "Congratulations! :)";
+    message2.textContent = "You won the game!";
     gameOver = true;
 };
 
