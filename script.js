@@ -23,7 +23,7 @@ let boardSize;
 let keepIterating = true;
 let snakeLength = 1;
 let foodPosition;
-let gameSpeed = 100;
+let gameSpeed = 180;
 let bestScore = 0;
 let currentMode = 'Normal';
 let gameOver = false;
