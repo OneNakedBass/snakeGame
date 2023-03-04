@@ -3,7 +3,7 @@
 
 This project was made with the intention of getting some more practice with event listeners and the call stack in JS. Nostalgia was other factor that inspired me to do this little rendition of the classic snake game, being that also the reason that made me try to give it that old school console style.
 
-[You can play it here.](https://onenakedbass.github.io/snakeGame)
+[You can play it here.](https://theradbass.github.io/snakeGame/)
 
 
 ## Functionality
